@@ -7,7 +7,7 @@ a {
   text-decoration: none;
 }
 /* logo */
-.nav-links-logo {
+.nav-links .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -15,6 +15,9 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.nav-links-logo-studio {
+  color: #2e2f42;
 }
 /* nav menu */
 .nav-links .link {
@@ -322,7 +325,7 @@ a {
 .footer-links .link:hover {
   text-decoration: underline;
 }
-.footer-links-logo {
+.footer-links .link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -330,6 +333,9 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.footer-links-logo {
+  color: #f4f4fd;
 }
 .footer-text {
   font-weight: 400;
